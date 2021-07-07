@@ -1,9 +1,9 @@
 /**
- * 19. Dibujar un cuadrado de N elementos por lado utilizando el car·cter ì*î. Por ejemplo,
- * si el cuadrado tiene 4 elementos por lado se deber· dibujar lo siguiente:
+ * 19. Dibujar un cuadrado de N elementos por lado utilizando el car√°cter ‚Äú*‚Äù. Por ejemplo,
+ * si el cuadrado tiene 4 elementos por lado se deber√° dibujar lo siguiente:
  * 		* * * *
- * 		*	 *
- * 		*	 *
+ * 		*     *
+ * 		*     *
  * 		* * * *
  */
 package introduccionjava;
@@ -21,7 +21,7 @@ public class Ejercicio_19_FH {
 		Scanner entrada = new Scanner(System.in);
 		int num;
 
-		System.out.println("Ingrese un n˙mero: ");
+		System.out.println("Ingrese un n√∫mero: ");
 		num = entrada.nextInt();
 
 		for (int i = 1; i <= num; i++) {
